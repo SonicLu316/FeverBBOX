@@ -1,0 +1,36 @@
+﻿<Properties StartupConfiguration="{2BE89A23-E2DB-45EB-AA55-0870DE5C0E4B}|Default">
+  <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="TYFoverBox/view/videoPage/Video.xaml.cs" Line="87" Column="1" />
+      <File FileName="TYFoverBox/MainSelect.xaml" />
+      <File FileName="TYFoverBox.iOS/AppDelegate.cs" />
+      <File FileName="TYFoverBox.iOS/Info.plist" />
+      <File FileName="TYFoverBox/packpage/VideoModel.cs" Line="59" Column="10" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="TYFoverBox" expanded="True">
+            <Node name="TYFoverBox" expanded="True">
+              <Node name="packpage" expanded="True" />
+              <Node name="view" expanded="True">
+                <Node name="videoPage" expanded="True">
+                  <Node name="Video.xaml" expanded="True" />
+                </Node>
+              </Node>
+            </Node>
+            <Node name="TYFoverBox.iOS" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.TYFoverBox.iOS automaticSigning="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.ACBFA565-2F5F-46B8-8A9A-5B5948801A16" />
+  <MonoDevelop.Ide.ItemProperties.TYFoverBox.Android PreferredExecutionTarget="Android.nexus_4_pie_9_0_-_api_28" />
+</Properties>

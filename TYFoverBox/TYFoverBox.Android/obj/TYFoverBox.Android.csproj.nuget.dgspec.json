@@ -1,0 +1,157 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/Benson/Desktop/TYFoverBox/TYFoverBox.Android/TYFoverBox.Android.csproj": {}
+  },
+  "projects": {
+    "/Users/Benson/Desktop/TYFoverBox/TYFoverBox.Android/TYFoverBox.Android.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/Benson/Desktop/TYFoverBox/TYFoverBox.Android/TYFoverBox.Android.csproj",
+        "projectName": "TYFoverBox.Android",
+        "projectPath": "/Users/Benson/Desktop/TYFoverBox/TYFoverBox.Android/TYFoverBox.Android.csproj",
+        "packagesPath": "/Users/Benson/.nuget/packages/",
+        "outputPath": "/Users/Benson/Desktop/TYFoverBox/TYFoverBox.Android/obj/",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "/Users/Benson/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid90"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid90": {
+            "projectReferences": {
+              "/Users/Benson/Desktop/TYFoverBox/TYFoverBox/TYFoverBox.csproj": {
+                "projectPath": "/Users/Benson/Desktop/TYFoverBox/TYFoverBox/TYFoverBox.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid90": {
+          "dependencies": {
+            "Acr.UserDialogs": {
+              "target": "Package",
+              "version": "[7.1.0.442, )"
+            },
+            "LibVLCSharp.Forms": {
+              "target": "Package",
+              "version": "[3.4.4, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[106.10.1, )"
+            },
+            "VideoLAN.LibVLC.Android": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
+            "Xam.Plugin.SimpleAudioPlayer": {
+              "target": "Package",
+              "version": "[1.4.0, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.5.0, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.5.0.530, )"
+            }
+          }
+        }
+      }
+    },
+    "/Users/Benson/Desktop/TYFoverBox/TYFoverBox/TYFoverBox.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/Benson/Desktop/TYFoverBox/TYFoverBox/TYFoverBox.csproj",
+        "projectName": "TYFoverBox",
+        "projectPath": "/Users/Benson/Desktop/TYFoverBox/TYFoverBox/TYFoverBox.csproj",
+        "packagesPath": "/Users/Benson/.nuget/packages/",
+        "outputPath": "/Users/Benson/Desktop/TYFoverBox/TYFoverBox/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/Benson/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Acr.UserDialogs": {
+              "target": "Package",
+              "version": "[7.1.0.442, )"
+            },
+            "LibVLCSharp.Forms": {
+              "target": "Package",
+              "version": "[3.4.4, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[106.10.1, )"
+            },
+            "Xam.Plugin.SimpleAudioPlayer": {
+              "target": "Package",
+              "version": "[1.4.0, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.5.0, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.5.0.530, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.200/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

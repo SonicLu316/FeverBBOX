@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:shared="clr-namespace:LibVLCSharp.Forms.Shared;assembly=LibVLCSharp.Forms"
+             mc:Ignorable="d"
+             xmlns:local="clr-namespace:TYFoverBox"
+             x:Class="TYFoverBox.view.videoPage.OnlyVideoPage">
+<!--示範頁-->
+    <ContentPage.BindingContext>
+        <local:OnlyVideoViewModel />
+    </ContentPage.BindingContext>
+    <NavigationPage.TitleView>
+        <StackLayout />
+    </NavigationPage.TitleView>
+    <shared:MediaPlayerElement
+        x:Name="mediaPlayer"
+        HorizontalOptions="FillAndExpand"
+        LibVLC="{Binding LibVLC}"
+        MediaPlayer="{Binding MediaPlayer}"
+        VerticalOptions="FillAndExpand" />
+</ContentPage>

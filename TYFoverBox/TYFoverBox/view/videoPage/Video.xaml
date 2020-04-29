@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+              xmlns:local="clr-namespace:TYFoverBox"
+             x:Class="TYFoverBox.view.videoPage.Video"
+             xmlns:vlc="clr-namespace:LibVLCSharp.Forms.Shared;assembly=LibVLCSharp.Forms">
+     <ContentPage.BindingContext>
+        <local:VideoModel />
+    </ContentPage.BindingContext>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="250" />
+            <RowDefinition Height="50" />
+        </Grid.RowDefinitions>
+
+        <vlc:MediaPlayerElement
+            x:Name="mediaPlayer"
+            Grid.Row="0"
+            LibVLC="{Binding LibVLC}"
+            MediaPlayer="{Binding MediaPlayer}" />
+
+
+        <Label Grid.Row="1" x:Name="TemperatureMSG" FontSize="70"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"
+               FontAttributes="Bold"/>
+        <Label Grid.Row="2" x:Name="lbMsg" Text="test" 
+               FontSize="70" 
+               HorizontalOptions="Center" 
+               VerticalOptions="Center" FontAttributes="Bold" />
+    </Grid>
+
+</ContentPage>

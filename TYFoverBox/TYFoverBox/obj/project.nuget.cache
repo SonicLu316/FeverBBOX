@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "dgSpecHash": "pFo+aY9SygZxqKyIu1sQWvfSxdAZBVFCLYBdRcxiEZPjMU4D7gAbLtZnjdz8WJ49Tu3X/P9QNTLHBIdIPJzj2g==",
+  "success": true,
+  "projectFilePath": "D:\\singProject\\TYFeverBOX\\new_TYFoverBox\\TYFoverBox\\TYFoverBox\\TYFoverBox.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\soniclu\\.nuget\\packages\\acr.userdialogs\\7.1.0.442\\acr.userdialogs.7.1.0.442.nupkg.sha512",
+    "C:\\Users\\soniclu\\.nuget\\packages\\libvlcsharp\\3.4.4\\libvlcsharp.3.4.4.nupkg.sha512",
+    "C:\\Users\\soniclu\\.nuget\\packages\\libvlcsharp.forms\\3.4.4\\libvlcsharp.forms.3.4.4.nupkg.sha512",
+    "C:\\Users\\soniclu\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\soniclu\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\soniclu\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\soniclu\\.nuget\\packages\\restsharp\\106.10.1\\restsharp.106.10.1.nupkg.sha512",
+    "C:\\Users\\soniclu\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\soniclu\\.nuget\\packages\\xam.plugin.simpleaudioplayer\\1.4.0\\xam.plugin.simpleaudioplayer.1.4.0.nupkg.sha512",
+    "C:\\Users\\soniclu\\.nuget\\packages\\xamarin.essentials\\1.5.0\\xamarin.essentials.1.5.0.nupkg.sha512",
+    "C:\\Users\\soniclu\\.nuget\\packages\\xamarin.forms\\4.5.0.530\\xamarin.forms.4.5.0.530.nupkg.sha512"
+  ],
+  "logs": []
+}
